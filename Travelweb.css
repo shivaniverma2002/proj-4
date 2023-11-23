@@ -1,0 +1,500 @@
+
+
+.Img {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    margin-top: 2rem;
+}
+*,
+*:before,
+*:after{
+    padding: 0;
+    margin:0;
+    box-sizing: border-box;
+}
+.grey{
+    position: relative;
+    text-decoration: none;
+    color:#114636;
+    font-size: 1.5rem;
+    font-weight: 700;
+    letter-spacing: 0.5px;
+}
+.grey:after{
+    content:"";
+    position:absolute;
+    background-color: #114636;
+    height:3px;
+    width:0;
+    left:0;
+    bottom:-10px;
+    transition:0.3s;
+
+}
+.grey:hover{
+    color:#114636;
+}
+.grey:hover:after{
+    width:100%;
+
+}
+.A {
+    border: 1px solid grey;
+    width: 270px;
+    margin-left: 35px;
+}
+
+.bg {
+    background-color: rgb(226, 255, 255);
+}
+
+#m {
+    margin-top: 6rem;
+    margin-bottom: 4rem;
+    color: rgb(24, 49, 30);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.white {
+
+    text-align: center;
+    color: #fff;
+}
+/* .Hellow{
+    height:100vh;
+    width:70vw;
+   display:flex;
+   align-items: center;
+} */
+
+.start {
+    margin-left: 5rem;
+}
+
+
+.B {
+    margin-left: 2rem;
+}
+
+.P {
+    margin-left: 5rem;
+    margin-right: 3rem;
+}
+
+.col-sm-12 {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    margin-top: .01rem;
+}
+
+@media (min-width:520px) {
+    .card {
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+
+    }
+}
+
+#top {
+    margin-top: 5rem;
+}
+
+.masthead {
+    min-height: 80vh;
+    position: relative;
+    background-size: cover;
+    border-radius: 25px;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+}
+
+.masthead .container {
+    overflow: hidden;
+}
+
+#ice {
+    color: #fdc2ea;
+    position: absolute;
+    margin-top: 10%;
+    align-items: center;
+    font-size: 100%;
+    font-weight: 900;
+}
+
+.d-flex h1 {
+
+    flex-wrap: wrap;
+}
+
+.d-flex p {
+
+    flex-wrap: wrap;
+    bottom: wrap;
+}
+
+.img {
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+.bg-light {
+    margin-bottom: 200px;
+}
+
+@media (min-width:320px) {
+    #A {
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+    }
+}
+
+
+    
+
+#B {
+    margin-top: 20%;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 1000;
+    font-size: 100%;
+
+}
+
+#C {
+
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 400;
+    font-size: 100%;
+    margin-bottom: 3rem;
+
+}
+
+.D {
+    margin-bottom: 17%;
+}
+
+.icon-background {
+    color: #084952;
+}
+
+.fa-tower-observation {
+    color: #fff;
+}
+
+#m-t {
+    margin-top: 90px;
+}
+
+.fa-utensils {
+    color: #fff;
+}
+
+.fa-plane-up {
+    color: #fff;
+}
+
+.custumer {
+    background-color: white;
+}
+
+.Troll{
+    border:1px solid #000;
+}
+
+
+.responsive {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 50px;
+    padding: 30px;
+}
+
+
+@media only screen and (max-width:800px)and(min-width:360px) {
+    .type img {
+        width: 100%;
+        height: 100%;
+    }
+}
+
+.text-over {
+    position: relative;
+}
+
+.text-over figcaption {
+    position: absolute;
+    left: 0;
+    top: 0;
+
+}
+
+@media (min-width:250px) {
+    .over {
+        position: relative;
+        text-align: center;
+
+    }
+
+
+    .t-over {
+
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        color: #fff;
+        font-family: 'Times New Roman', Times, serif;
+        font-weight: 800;
+        font-size: 1.3rem;
+
+    }
+
+
+}
+.Troll {
+    background-image: url('https://wi.wallpapertip.com/wsimgs/143-1436305_lonely-girl-wallpaper-37-desktop-hd-lonely-girl.jpg');
+   width: 100%;
+ display: cover;
+    border-radius: 0.5rem;
+    border: 2px solid rgb(128, 121, 121);
+}
+
+#About {
+    color: #fff;
+    margin-top: 25%;
+    font-size: 5vh;
+}
+
+.screen {
+    background-image: url('https://wallpapercave.com/wp/wp2009428.jpg');
+    height: fit-content;
+    width: fit-content;
+
+}
+
+.Explore .img {
+    height: 500px;
+    width: 300px;
+}
+
+.Explore img {
+    border: 5px solid #ffffff;
+    height: 300px;
+    width: 900px;
+    margin-left: 3rem;
+    margin-top: 40%;
+}
+
+.Force img {
+    border: 5px solid #ffffff;
+    height: 300px;
+    width: 500px;
+
+    margin-top: 90%;
+}
+
+.Explore {
+    margin-right: -8rem;
+}
+@media only screen and (min-width:990px){
+.team {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 4rem;
+    color: #070707;
+    margin-left: 6rem;
+}
+
+}
+@media only screen and (max-width:990px)
+{
+    .team{
+        text-align: center;
+        font-size: 2rem;
+        color: #000;
+    }
+}
+
+.house {
+    background-image: url('img-3.jpg');
+    height: fit-content;
+    display: cover;
+    width:100%;
+}
+
+@media screen and (max-width:568px) {
+    .col {
+        width: 100%;
+    }
+
+    .Explore {
+        margin-right: -4rem;
+    }
+}
+@media only screen and (min-width:990px){
+.theam {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 2.5rem;
+    color: #070707;
+    margin-left: 7rem;
+}
+}
+@media only screen and (max-width:990px)
+{
+    .theam{
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        text-align: center;
+        font-size: 2rem;
+        color: #000;
+    }
+}
+.contact {
+    background-image: linear-gradient(rgba(32, 30, 30, 0.747), rgba(31, 29, 29, 0.719)), url('https://images.pexels.com/photos/7682340/pexels-photo-7682340.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1');
+    height: 400px;
+
+
+    display: cover;
+    border-radius: 4rem;
+    border: 2px solid rgb(15, 15, 15);
+}
+
+.con {
+    text-align: center;
+    color: #fff;
+    margin-top: 15%;
+}
+
+.map {
+    background-image: linear-gradient(rgba(32, 30, 30, 0.747), rgba(31, 29, 29, 0.719)), url('https://media.wired.com/photos/59269cd37034dc5f91bec0f1/191:100/w_1280,c_limit/GoogleMapTA.jpg');
+    height: 100%;
+
+
+    display: cover;
+    border-radius: 0.5rem;
+    border: 2px solid rgb(128, 121, 121);
+}
+.custumer{
+  
+        background-image:  url('https://www.unearthwomen.com/wp-content/uploads/2022/06/pexels-photo-5490747-1200x600.jpeg');
+       
+        height: fit-content;
+        width: fit-content;
+        border-radius: 0.5rem;
+        border: 2px solid rgb(128, 121, 121);
+    
+    
+}
+.form {
+    background-image:  url('https://wallpapercave.com/wp/wp2722920.jpg');
+    height: fit-content;
+    background-size: 100% 100%;
+
+}
+
+.hover {
+    background-color: #0b4f77;
+
+}
+
+.hello {
+    font-size: 1rem;
+    color: #fff;
+    margin-top: 15%;
+}
+@media only screen and (min-width:990px){
+.detail {
+    margin-left: -10rem;
+    margin-top: 8rem;
+}
+}
+.journey {
+    font-display: block;
+    font-weight: 700;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-left: 4rem;
+    color: #000000;
+}
+.b{
+   background-color:  rgb(192, 252, 252);
+}
+
+@media screen and (max-width:576px) {
+    
+    .col{
+        text-align: center;
+        width:100%;
+        margin-top: 0.4rem;
+    }
+    .col-A{
+        order:3;
+        margin-top: 3rem;
+   
+        
+    }
+    .col-B{
+        order:1;
+        margin-top: 0.01rem;
+    }
+    .col-C{
+        order:2;
+        margin-bottom: 0.01rem;
+    }
+}
+@media only screen and (max-width:990px) {
+    
+    .col{
+        text-align: center;
+        width:100%;
+        margin-top: 0.01rem;
+    }
+    .col-A{
+        order:3;
+        margin-top: 3rem;
+   
+        
+    }
+    .col-B{
+        order:1;
+        margin-top: 0.01rem;
+    }
+    .col-C{
+        order:2;
+        margin-bottom: 0.01rem;
+    }
+}
+@media only screen and(min-width:990px)
+{
+    .detail{
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+        margin-top: 3rem;
+    }
+}
+
+
+.circle{
+    height:1.5rem;
+    width:1.5rem;
+    border:1px solid rgb(58, 56, 56);
+   
+    border-radius:50%;
+}
+.line{
+   margin-left: -5rem;
+   
+}
+.follow{
+    margin-right: -4rem;
+}
+.clr{
+    font-weight: 500;
+    font-family: 'Times New Roman', Times, serif;
+    color: #928e8e;
+}
